@@ -1,0 +1,118 @@
+body{
+  /* color: #5e606e; */
+  color: rgba(0,0,0,0.7);
+  background-color: rgba(245, 243, 243, 0.5);
+  font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+
+*{
+  box-sizing: border-box;
+  margin-left: 7px;
+  margin-top: 10px;
+}
+
+.title{
+  font-weight: 400;
+  margin-left: 82px;
+}
+
+.personal{
+  height: 7em;
+  width: 292px; 
+  padding: 20px 0px 0px 20px;
+  display: flex;
+  border-left:20px;
+  justify-content: space-between;
+}
+
+.box{
+  border-radius: 20px;
+  box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.2);  
+}
+
+ .row{
+  position: relative;
+  left: -30px;
+  margin-bottom: 40px;
+} 
+
+.account h6{
+  font-size: 12px;
+}
+
+.account div{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.projects .card-header{
+  color: #4e73df;
+  font-weight: 500;
+}
+
+.header{
+  color: #4e73df;
+  font-weight: 500;
+}
+
+.projectName{
+  display: flex;
+  justify-content: space-between;
+}
+
+.illus{
+  height: 35rem;
+}
+
+.illus .card-body{
+  margin-top: 30px;
+}
+
+.card-link{
+  margin-top:40px;
+}
+
+div .progress{
+  border-radius: 4px;
+  height: 17px;
+}
+
+div .progress-bar{
+  position: absolute;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-left: 0px;
+  height: 17px;
+  margin-top: -0.8px;
+}
+
+.personal .progress{
+  border-radius: 4px;
+  height: 10px;
+  width: 100px;
+}
+
+.space{
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal .progress-bar{
+  position: absolute;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-left: 0px;
+  height: 10px;
+  width: 1px;
+  margin-top: -0.8px;
+}
+
+img{
+  width: 25rem;
+  height: 17rem;
+}
+
+.color{
+  width: 17rem;
+  height: 6rem;
+}
